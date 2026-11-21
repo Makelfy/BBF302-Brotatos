@@ -1,0 +1,47 @@
+# Secrets (DATABASE_URL, SECRET_KEY) - never commit
+.env
+
+
+# Virtual environments (uv creates .venv)
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Flask
+instance/
+.webassets-cache
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Tools
+.ruff_cache/
+.mypy_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temp / lock files
+~$*
+*.tmp
+
+# Local logs and databases
+*.log
+*.sqlite3
+*.db
